@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A13D83D3-3A82-47F9-B124-EF18AA466AAE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp3</RootNamespace>
+    <AssemblyName>WindowsFormsApp3</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminAnaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAnaMenu.Designer.cs">
+      <DependentUpon>AdminAnaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGirisi.Designer.cs">
+      <DependentUpon>AdminGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnalizSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalizSayfasi.Designer.cs">
+      <DependentUpon>AnalizSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiaKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiaKayit.Designer.cs">
+      <DependentUpon>MiaKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciAnaliz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciAnaliz.Designer.cs">
+      <DependentUpon>OgrenciAnaliz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciAnaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciAnaMenu.Designer.cs">
+      <DependentUpon>OgrenciAnaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciBilgilerimSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciBilgilerimSayfasi.Designer.cs">
+      <DependentUpon>OgrenciBilgilerimSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciIslemleri.Designer.cs">
+      <DependentUpon>OgrenciIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciKayit.Designer.cs">
+      <DependentUpon>OgrenciKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciKayit2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciKayit2.Designer.cs">
+      <DependentUpon>OgrenciKayit2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgretmenAnaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgretmenAnaMenu.Designer.cs">
+      <DependentUpon>OgretmenAnaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgretmenGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgretmenGirisi.Designer.cs">
+      <DependentUpon>OgretmenGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgretmenIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgretmenIslemleri.Designer.cs">
+      <DependentUpon>OgretmenIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoruIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoruIslemleri.Designer.cs">
+      <DependentUpon>SoruIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SınavHazırlamaSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SınavHazırlamaSayfasi.Designer.cs">
+      <DependentUpon>SınavHazırlamaSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SınavOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SınavOl.Designer.cs">
+      <DependentUpon>SınavOl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminAnaMenu.resx">
+      <DependentUpon>AdminAnaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminGirisi.resx">
+      <DependentUpon>AdminGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalizSayfasi.resx">
+      <DependentUpon>AnalizSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiaKayit.resx">
+      <DependentUpon>MiaKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciAnaliz.resx">
+      <DependentUpon>OgrenciAnaliz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciAnaMenu.resx">
+      <DependentUpon>OgrenciAnaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciBilgilerimSayfasi.resx">
+      <DependentUpon>OgrenciBilgilerimSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciIslemleri.resx">
+      <DependentUpon>OgrenciIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciKayit.resx">
+      <DependentUpon>OgrenciKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciKayit2.resx">
+      <DependentUpon>OgrenciKayit2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgretmenAnaMenu.resx">
+      <DependentUpon>OgretmenAnaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgretmenGirisi.resx">
+      <DependentUpon>OgretmenGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgretmenIslemleri.resx">
+      <DependentUpon>OgretmenIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SoruIslemleri.resx">
+      <DependentUpon>SoruIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SınavHazırlamaSayfasi.resx">
+      <DependentUpon>SınavHazırlamaSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Proje Fotoğrafları\icons8-admin-100.png" />
+    <Content Include="Proje Fotoğrafları\icons8-admin-64.png" />
+    <Content Include="Proje Fotoğrafları\icons8-admin-85.png" />
+    <Content Include="Proje Fotoğrafları\icons8-analysis-64.png" />
+    <Content Include="Proje Fotoğrafları\icons8-analysis-66.png" />
+    <Content Include="Proje Fotoğrafları\icons8-book-65.png" />
+    <Content Include="Proje Fotoğrafları\icons8-co2-30.png" />
+    <Content Include="Proje Fotoğrafları\icons8-code-30.png" />
+    <Content Include="Proje Fotoğrafları\icons8-database-view-30.png" />
+    <Content Include="Proje Fotoğrafları\icons8-exam-50.png" />
+    <Content Include="Proje Fotoğrafları\icons8-exam-60.png" />
+    <Content Include="Proje Fotoğrafları\icons8-exam-65.png" />
+    <Content Include="Proje Fotoğrafları\icons8-exit-35.png" />
+    <Content Include="Proje Fotoğrafları\icons8-exit-65.png" />
+    <Content Include="Proje Fotoğrafları\icons8-face-70.png" />
+    <Content Include="Proje Fotoğrafları\icons8-literature-30.png" />
+    <Content Include="Proje Fotoğrafları\icons8-lungs-30.png" />
+    <Content Include="Proje Fotoğrafları\icons8-microsoft-admin-30.png" />
+    <Content Include="Proje Fotoğrafları\icons8-neo-30.png" />
+    <Content Include="Proje Fotoğrafları\icons8-pi-30.png" />
+    <Content Include="Proje Fotoğrafları\icons8-question-65.png" />
+    <Content Include="Proje Fotoğrafları\icons8-report-card-30.png" />
+    <Content Include="Proje Fotoğrafları\icons8-student-65.png" />
+    <Content Include="Proje Fotoğrafları\icons8-student-80.png" />
+    <Content Include="Proje Fotoğrafları\icons8-teacher-100.png" />
+    <Content Include="Proje Fotoğrafları\icons8-teacher-65.png" />
+    <Content Include="Proje Fotoğrafları\icons8-teacher-85 %281%29.png" />
+    <Content Include="Proje Fotoğrafları\icons8-test-20.png" />
+    <Content Include="Proje Fotoğrafları\icons8-thinking-65.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
