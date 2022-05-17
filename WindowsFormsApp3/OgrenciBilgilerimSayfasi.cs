@@ -12,6 +12,7 @@ namespace WindowsFormsApp3
 {
     public partial class OgrenciBilgilerimSayfasi : Form
     {
+        public Students student = new Students();
         public OgrenciBilgilerimSayfasi()
         {
             InitializeComponent();
@@ -27,5 +28,11 @@ namespace WindowsFormsApp3
         {
             miakayit.Hide();
         }
+
+        private void OgrenciBilgilerimSayfasi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

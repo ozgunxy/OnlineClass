@@ -295,6 +295,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OgretmenAnaMenu";
             this.Text = "OgretmenAnaMenu";
+            this.Load += new System.EventHandler(this.OgretmenAnaMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

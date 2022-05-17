@@ -31,5 +31,30 @@ namespace WindowsFormsApp3
         {
             Application.Exit();
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            if (bunifuMaterialTextbox1.Text == "" || bunifuMaterialTextbox2.Text == "")
+            {
+                MessageBox.Show("Lütfen tüm bilgileri doldurun");
+                return;
+            }
+            if (DataBase.getInstance().Login(bunifuMaterialTextbox1.Text, bunifuMaterialTextbox2.Text, "Student"))
+            {
+                Students student = new Students();
+                student.studentUserName = bunifuMaterialTextbox1.Text;
+                student.studentPw = bunifuMaterialTextbox2.Text;
+                OgrenciAnaMenu Menu = new OgrenciAnaMenu();
+                Menu.student = student;
+                this.Hide();
+                Menu.Show();
+                MessageBox.Show("HosGeldiniz");
+            }
+            else
+            {
+                MessageBox.Show("Basarisiz Giris");
+                return;
+            }
+        }
     }
 }

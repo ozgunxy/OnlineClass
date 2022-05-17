@@ -350,6 +350,7 @@
             this.bunifuThinButton21.Size = new System.Drawing.Size(117, 50);
             this.bunifuThinButton21.TabIndex = 7;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // bunifuThinButton22
             // 
@@ -383,7 +384,7 @@
             this.label2.ForeColor = System.Drawing.Color.DarkGray;
             this.label2.Location = new System.Drawing.Point(450, 317);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 17);
+            this.label2.Size = new System.Drawing.Size(104, 16);
             this.label2.TabIndex = 9;
             this.label2.Text = "Sifreni mi unuttun";
             this.label2.MouseLeave += new System.EventHandler(this.label2_MouseLeave);

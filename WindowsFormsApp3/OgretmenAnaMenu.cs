@@ -21,5 +21,10 @@ namespace WindowsFormsApp3
         {
             Application.Exit();
         }
+
+        private void OgretmenAnaMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

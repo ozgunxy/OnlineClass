@@ -48,8 +48,8 @@
             this.bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse6 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse7 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuTileButton6 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -156,6 +156,7 @@
             this.bunifuTileButton4.Name = "bunifuTileButton4";
             this.bunifuTileButton4.Size = new System.Drawing.Size(157, 265);
             this.bunifuTileButton4.TabIndex = 52;
+            this.bunifuTileButton4.Click += new System.EventHandler(this.bunifuTileButton4_Click_1);
             // 
             // bunifuTileButton2
             // 
@@ -256,18 +257,6 @@
             this.bunifuElipse7.ElipseRadius = 30;
             this.bunifuElipse7.TargetControl = this.bunifuTileButton6;
             // 
-            // bunifuSeparator1
-            // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(558, 359);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(10, 88);
-            this.bunifuSeparator1.TabIndex = 60;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = true;
-            // 
             // bunifuTileButton6
             // 
             this.bunifuTileButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(223)))), ((int)(((byte)(241)))));
@@ -286,6 +275,18 @@
             this.bunifuTileButton6.Name = "bunifuTileButton6";
             this.bunifuTileButton6.Size = new System.Drawing.Size(311, 88);
             this.bunifuTileButton6.TabIndex = 61;
+            // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.bunifuSeparator1.LineThickness = 1;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(558, 359);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Size = new System.Drawing.Size(10, 88);
+            this.bunifuSeparator1.TabIndex = 60;
+            this.bunifuSeparator1.Transparency = 255;
+            this.bunifuSeparator1.Vertical = true;
             // 
             // OgrenciAnaMenu
             // 
@@ -310,6 +311,7 @@
             this.Name = "OgrenciAnaMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OgrenciAnaMenu";
+            this.Load += new System.EventHandler(this.OgrenciAnaMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -202,6 +202,7 @@
             this.bunifuThinButton21.Size = new System.Drawing.Size(117, 50);
             this.bunifuThinButton21.TabIndex = 26;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // bunifuMaterialTextbox5
             // 
@@ -263,7 +264,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Location = new System.Drawing.Point(364, 257);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 17);
+            this.label1.Size = new System.Drawing.Size(161, 16);
             this.label1.TabIndex = 30;
             this.label1.Text = "Doğum Tarihinizi Giriniz";
             // 

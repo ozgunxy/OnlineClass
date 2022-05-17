@@ -55,7 +55,7 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(45, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 24);
+            this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Name";
             // 
@@ -65,7 +65,7 @@
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(117, 138);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 24);
+            this.label2.Size = new System.Drawing.Size(103, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Surname";
             // 
@@ -87,7 +87,7 @@
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(117, 288);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 21);
+            this.label3.Size = new System.Drawing.Size(125, 19);
             this.label3.TabIndex = 59;
             this.label3.Text = "Student Branch";
             // 
@@ -97,7 +97,7 @@
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.Location = new System.Drawing.Point(117, 349);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 21);
+            this.label4.Size = new System.Drawing.Size(103, 19);
             this.label4.TabIndex = 60;
             this.label4.Text = "Student Mail";
             // 
@@ -107,7 +107,7 @@
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(117, 227);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(157, 21);
+            this.label5.Size = new System.Drawing.Size(150, 19);
             this.label5.TabIndex = 61;
             this.label5.Text = "Student UserName";
             // 
@@ -117,7 +117,7 @@
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(117, 410);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(235, 21);
+            this.label6.Size = new System.Drawing.Size(228, 19);
             this.label6.TabIndex = 62;
             this.label6.Text = "Student Responsible Teacher";
             // 
@@ -190,6 +190,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OgrenciBilgilerimSayfasi";
             this.Text = "OgrenciBilgilerimSayfasi";
+            this.Load += new System.EventHandler(this.OgrenciBilgilerimSayfasi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
