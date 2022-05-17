@@ -16,7 +16,11 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
-
+        OgrenciIslemleri ogrenciIslemleri = new OgrenciIslemleri();
+        OgretmenIslemleri OgretmenIslemleri = new OgretmenIslemleri();
+        SoruIslemleri soruIslemleri= new SoruIslemleri();
+        SınavHazırlamaSayfasi sinavhazirlamasayfasi = new SınavHazırlamaSayfasi();
+        
         private void bunifuTileButton1_Click(object sender, EventArgs e)
         {
 
@@ -29,7 +33,26 @@ namespace WindowsFormsApp3
 
         private void bunifuTileButton2_Click(object sender, EventArgs e)
         {
+            sinavhazirlamasayfasi.Show();
+            this.Hide();
+        }
 
+        private void bunifuTileButton3_Click(object sender, EventArgs e)
+        {
+            ogrenciIslemleri.Show();
+            this.Hide();
+        }
+
+        private void bunifuTileButton6_Click(object sender, EventArgs e)
+        {
+            OgretmenIslemleri.Show();
+            this.Hide();
+        }
+
+        private void bunifuTileButton4_Click(object sender, EventArgs e)
+        {
+            soruIslemleri.Show();
+            this.Hide();
         }
     }
 }

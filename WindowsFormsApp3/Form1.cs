@@ -48,13 +48,18 @@ namespace WindowsFormsApp3
                 Menu.student = student;
                 this.Hide();
                 Menu.Show();
-                MessageBox.Show("HosGeldiniz");
+                MessageBox.Show("Hosgeldiniz");
             }
             else
             {
-                MessageBox.Show("Basarisiz Giris");
+                MessageBox.Show("Giriş Başarısız");
                 return;
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

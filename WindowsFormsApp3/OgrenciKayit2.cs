@@ -16,5 +16,10 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -384,9 +384,10 @@
             this.label2.ForeColor = System.Drawing.Color.DarkGray;
             this.label2.Location = new System.Drawing.Point(450, 317);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 16);
+            this.label2.Size = new System.Drawing.Size(109, 17);
             this.label2.TabIndex = 9;
             this.label2.Text = "Sifreni mi unuttun";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             this.label2.MouseLeave += new System.EventHandler(this.label2_MouseLeave);
             this.label2.MouseHover += new System.EventHandler(this.label2_MouseHover);
             // 

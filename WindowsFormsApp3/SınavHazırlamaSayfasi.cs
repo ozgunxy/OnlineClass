@@ -16,5 +16,17 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
+
+        private void bunifuFlatButton6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+        {
+            OgretmenAnaMenu ogretmenAnaMenu = new OgretmenAnaMenu();
+            ogretmenAnaMenu.Show();
+            this.Hide();
+        }
     }
 }
