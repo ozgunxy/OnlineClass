@@ -31,6 +31,16 @@ Sinem AKÇA [GitHub Profili](https://github.com/sinemakca ) </br>
 
 
 
+#### Projeyi kendi bilgisayarınıza kurmak için aşağıdaki adımları takip edebilirsiniz.
+1. Github reposunu klonlayın
+```sh
+git clone https://github.com/ozgunxy/OnlineClass.git
+```
+2. Bunifu paketlerini Visual Studionuza kurun
+```sh
+Bunifu IU v1.52.dll
+```
+
 ## Kullanılan Teknolojiler
 
 ![csharp](https://user-images.githubusercontent.com/48556212/71685279-de90ab00-2da8-11ea-97f7-3489f6ab5f19.png)
